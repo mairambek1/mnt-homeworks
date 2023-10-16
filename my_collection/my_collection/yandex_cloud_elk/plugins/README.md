@@ -3,7 +3,7 @@
 ```
 └── plugins
     ├── modules
-       ├── my_own_module
+       ├── my_module
 
 ```
 
