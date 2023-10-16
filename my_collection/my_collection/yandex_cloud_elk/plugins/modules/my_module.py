@@ -9,7 +9,7 @@ __metaclass__ = type
 
 DOCUMENTATION = r'''
 ---
-module: my_own_module
+module: my_module
 
 short_description: This is my test module
 
@@ -34,13 +34,13 @@ extends_documentation_fragment:
     - my_namespace.my_collection.my_doc_fragment_name
 
 author:
-    - Evgeniy Smirnov (github.com/EvgeshkaSPb)
+    - Mairambek Omukeev (github.com/mairambek1)
 '''
 
 EXAMPLES = r'''
 # Pass in a message
 - name: Test with a message
-  my_namespace.my_collection.my_own_module:
+  my_namespace.my_collection.my_module:
     path:'/tmp/file.txt'
     content: 'Home work'
 
