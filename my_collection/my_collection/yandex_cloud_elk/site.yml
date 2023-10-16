@@ -2,5 +2,5 @@
 - name: test module role
   hosts: localhost
   roles:
-    - my_own_role
+    - my_role
     
